@@ -1,0 +1,1185 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>awesome</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bakbak+One&family=Barlow+Condensed:wght@100&family=Bebas+Neue&family=Dosis:wght@200&family=Great+Vibes&family=Lato:wght@300&family=Libre+Franklin:wght@700&family=Merriweather:ital,wght@0,300;1,400;1,700&family=Passions+Conflict&family=Raleway:wght@200&family=Roboto:ital,wght@0,300;1,100&family=Sacramento&family=Secular+One&family=Source+Serif+4:wght@200&display=swap" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/b5b80dcc44.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+            body {
+                margin:0;
+                padding:0;
+            }
+            
+            .bgimg {
+                background-image:url(awesomepic/bgimage.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                height:100vh;
+                background-position: bottom left;
+            }
+            .overlay {
+                background-color: rgba(11, 11, 11, 0.6);
+                height:100%;
+            }
+            .skill {
+                position:relative;
+                height:100%;
+                width:100%;
+            }
+            .heading {
+                position:absolute;
+                top:35%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                }
+              
+            .logocolor {
+                font-family: 'Raleway', sans-serif;
+                
+            }
+            .up {
+                font-size:6rem;
+                border:dashed 1px;
+                font-family: 'Bakbak One', cursive ,sans-serif;
+                }
+            .about {
+                font-size: 70px;
+                border:dashed 1px;
+                font-family: 'Bakbak One', cursive ,sans-serif;
+            }    
+              
+            .small {
+                position:absolute;
+                top:95%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                font-size:17px;
+                font-family:'Bakbak One', sans-serif;
+                padding:12px 12px;
+            }
+            .text-primary {
+                color:rgb(3, 168, 165)!important;
+            }
+            .bg-primary {
+               background-color:rgb(3, 168, 165)!important;
+            }
+           
+           .nav-link {
+               color: black !important;
+           }
+           .nav-link:hover {
+               color:rgb(3, 168, 165)!important;
+           }
+         .heading h6 {
+             font-weight:500;
+         }
+         .navbar-brand {
+             font-weight:600;
+         }
+         .line h2 {
+             display:inline-block;
+         }
+         .line h2::before {
+             content:'';
+             width:100%;
+             height:8px;
+             background-color:rgb(3, 168, 165);
+             display:block;
+         }
+         .line h2::after {
+             content:'';
+             width:100%;
+             height:8px;
+             background-color:rgb(3, 168, 165);
+             display:block;
+         }
+         .line1 h2 {
+             display:inline-block;
+         }
+         .line1 h2::before {
+             content:'';
+             width:100%;
+             height:8px;
+             background-color:white;
+             display:block;
+         }
+         .line1 h2::after {
+             content:'';
+             width:100%;
+             height:8px;
+             background-color:white;
+             display:block;
+         }
+          .bg-info {
+              background-color: rgb(237, 240, 243) !important;
+          }
+          .border-secondary {
+            border-color: rgb(200, 203, 206) !important;
+          }
+          
+            .hexa {
+                width:105px;
+                height:60px;
+                position:relative;
+                background-color:red;
+            }
+            .hexa:before, .hexa:after {
+                content:'';
+                width:100%;
+                height:100%;
+                position:absolute;
+                background-color:red;
+            }
+            .hexa:before {
+                transform: rotate(60deg);
+            }
+            .hexa:after {
+                transform:rotate(-60deg);
+            }
+            .hexa, .hexa:before, .hexa:after {
+                background-color: transparent;
+                border:2px solid rgb(3, 168, 165);
+                border-radius:5px;
+                border-top: transparent;
+                border-bottom: transparent;
+                border-radius:5px;
+            }
+           .hexa a {
+               text-align: center;
+               width:100%;
+               height:100%;
+               font-size:40px;
+               position:absolute;
+               color:black;
+               z-index: 1;
+           }
+           .hexa:hover, .hexa:hover:before, .hexa:hover:after {
+               background-color:rgb(3, 168, 165);
+               transition:transform 2s;
+            }
+           .hexa:hover:before, .hexa:hover:after {
+                transform: rotate(120deg);
+               
+           }
+           .hexa:hover:after {
+                transform: rotate(-120deg);
+           }
+          
+           .card h4, .serv h5{
+               display:inline-block;
+           }
+           .card h4:before, .serv h5:before {
+               content:'';
+               width:100%;
+               height:5px;
+                display: block;
+                background-color: rgb(3, 168, 165);
+                margin:5px 0;
+           }
+           .card p {
+            font-family: 'Raleway', sans-serif;
+            font-weight:500;
+            font-size: 15px;
+           }
+           .progress-container {
+               position:relative;
+               height:200px;
+               width:200px;
+               padding:1rem 1rem;
+               background-color:transparent;
+           }
+          .svg1 {
+              position:absolute;
+              top:50%;
+              left:50%;
+              transform:translate(-50%, -50%) rotate(-90deg);
+              }
+          .percent {
+              position:absolute;
+              top:50%;
+              left:50%;
+              transform:translate(-50%, -50%);
+          }
+          .circle1 {
+              stroke-dasharray: 410;
+              stroke-linecap: round;
+            }
+            .circle2 {
+              stroke-dasharray: 520;
+              stroke-linecap: round;
+            }
+            .circle3 {
+              stroke-dasharray: 460;
+              stroke-linecap: round;
+            }
+            .circle4 {
+              stroke-dasharray: 380;
+              stroke-linecap: round;
+            }
+            .backimage {
+                background-image: url(awesomepic/bgimage1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position:center;
+            }
+            .backimage1 {
+                background-image: url(awesomepic/bgimage2.jpg);
+                background-repeat: no repeat;
+                background-size: cover;
+                background-position:center;
+            }
+            
+            .backimage2 {
+                background-image: url(awesomepic/bgimage2.jpg);
+                background-repeat: no repeat;
+                background-size: cover;
+                background-position:bottom center;
+            }
+            .backimage3 {
+                background-image: url(awesomepic/bgimage3.jpg);
+                background-repeat: no repeat;
+                background-size: cover;
+                background-position: center;
+            }
+            
+             .smallline h6::before {
+                 content:'';
+                 height:3px;
+                 width:10%;
+                margin:10px auto;
+                 background-color:rgb(234, 228, 228);
+                 display:block;
+             }   
+            .carousel-indicators [data-bs-target] {
+                height:10px;
+                width:10px;
+                background-color: transparent;
+                border:2px solid rgb(3, 168, 165);
+            }  
+            .carousel-indicators .active{
+                background-color: rgb(3, 168, 165);
+               
+            }
+           .icon h1 {
+               font-size: 50px;
+           }
+           .number span{
+                font-size: 50px;
+                font-weight: bold;
+           }
+           .number .smalltag {
+               font-size:14px;
+               font-weight: 600;
+           }
+           .btnout .btn{
+               font-weight: 600;
+               font-size: 13px ;
+               color:black;
+               border:1px solid rgb(225, 228, 228);
+               padding:10px 20px;
+               border-radius: 0;
+               margin: 4px;
+           }
+           .border-primary {
+               border-color:rgb(3, 168, 165) !important ;
+           }
+           .btnout .btn:hover {
+               background-color:rgb(3, 168, 165) ;
+               color:white;
+           }
+           #triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 70px solid transparent;
+      border-right: 70px solid transparent;
+      border-bottom: 110px solid rgb(3, 168, 165);
+    }
+    #triangle-up {
+        position:relative;
+    }
+    .tricenter {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        height:100%;
+        margin-top: 20px;
+    }
+    ul li {
+        list-style: none;
+        line-height: 30px;
+    }
+    ul {
+        padding:0;
+    }
+      .bigsize i{
+          font-size: 55px;
+      }
+      .smallicon .smallbox {
+                height:10px;
+                width:10px;
+                border:0;
+            }
+        .vdo {
+           position:relative;
+            overflow: hidden;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .watch {
+            position:absolute;
+            z-index: 1;
+            
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            background: red;
+            position:relative;
+            }               
+            .square a {
+                top:50%;
+                left:50%;
+                transform: translate(-50%, -50%);
+               font-size:40px;
+               position:absolute;
+               color:white;
+            }       
+          .bimage {
+              background-image: url(awesomepic/bgimage4.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: center right;
+          }
+          .square1 {
+              width:70px;
+              height:70px;
+              background-color:rgb(3, 168, 165) ;
+              position:fixed;
+              bottom:10px;
+            right:10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .infobox, .infobox1, .infobox2{
+                position:relative;
+            }
+            .infobox:after {
+                content:'';
+                position:absolute;
+                width:0;
+                height:0;
+                right:100%;
+                top:13%;
+                 border-top:20px solid transparent;
+                border-right:20px solid white;
+                border-bottom:20px solid transparent;
+                border-left:20px solid transparent;
+            }
+            .infobox1:after {
+                content:'';
+                position:absolute;
+                width:0;
+                height:0;
+                left:100%;
+                top:13%;
+                border-top:20px solid transparent;
+                border-right:20px solid transparent;
+                border-bottom:20px solid transparent;
+                border-left:20px solid rgb(237, 240, 243);
+            }
+            .infobox2:after {
+                content:'';
+                position:absolute;
+                width:0;
+                height:0;
+                bottom:100%;
+                left:5%;
+                 border-top:20px solid transparent;
+                border-right:20px solid transparent;
+                border-bottom:20px solid rgb(237, 240, 243);
+                border-left:20px solid transparent;
+            }
+            @media only screen and (max-width:576px) {
+                .infobox, .infobox1 {
+                position:relative;
+               
+            }
+                .infobox:after {
+                content:'';
+                position:absolute;
+                width:0;
+                height:0;
+                bottom:100%;
+                left:13%;
+                border-top:20px solid transparent;
+                border-right:20px solid transparent;
+                border-bottom:20px solid white;
+                border-left:20px solid transparent;
+                margin-top:-80px;
+            }
+            .infobox1:after {
+                content:'';
+                position:absolute;
+                width:0;
+                height:0;
+                top:100%;
+                left:13%;
+                border-top:20px solid rgb(237, 240, 243);
+                border-right:20px solid transparent;
+                border-bottom:20px solid transparent;
+                border-left:20px solid transparent;
+                margin-bottom:-50px;
+            }
+   
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bgimg" id="home">
+            <div class="overlay">
+            <div class="container-fluid skill">
+                <div class="heading text-center">
+                    <h6 class="text-primary logocolor fw-normal">AWESOME</h6>
+                    <h1 class="up py-3 px-4 mt-4 text-white">SKILLED ON</h1>
+                    <h4 class="small bg-light text-primary">PHP - HTML - CSS - JAVASCRIPT</h4>
+                </div>
+            </div>
+            </div>
+        </header>
+        <div class="container-fluid" id="up">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container p-0">
+                    <a href="#" class="navbar-brand text-primary fs-2 logocolor fw-bold">AWESOME</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-2"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item px-2"><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item px-2"><a href="#team" class="nav-link">TEAM</a></li>
+                    <li class="nav-item px-2"><a href="#serv" class="nav-link">SERVICE</a></li>
+                    <li class="nav-item px-2"><a href="#port" class="nav-link">PORTFOLIO</a></li>
+                    <li class="nav-item px-2"><a href="#client" class="nav-link">CLIENT</a></li>
+                    <li class="nav-item px-2"><a href="#blog" class="nav-link">BLOG</a></li>
+                    <li class="nav-item px-2"><a href="#con" class="nav-link">CONTACT</a></li>
+                </ul>
+                </div>
+                </div>
+            </nav>
+        </div>
+
+        <section>
+        <div class="container-fluid bg-info p-5 border border-5 border-end-0 border-start-0">
+            <div class="container my-5">
+                <div class="line text-center">
+                    <h2 class="fw-bolder fs-1">FEATURE</h2>
+                </div>
+                <div class="row mt-4 pt-5">
+                    <div class=" col-12 col-md-4 d-flex justify-content-center">
+                        <div class="card border-0 bg-info">
+                            <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                <div class="hexa"><a href="#"><i class="fa-solid fa-thumbs-up"></i></a></div>
+                            </div>
+                            <div class="card-body border-0 text-center"><h4 class="fw-bold">ELEGANT</h4><p class="py-2 text-secondary">We Developed HTML Template Following Coding Standard which is W3C Validated.</p></div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 d-flex justify-content-center">
+                        <div class="card border-0 bg-info">
+                            <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                <div class="hexa"><a href="#"><i class="fa-solid fa-laptop-code"></i></a></div>
+                            </div>
+                            <div class="card-body border-0 text-center"><h4 class="fw-bold">RESPONSIVE</h4><p class="py-2 text-secondary">HTML Template Following Coding Standard which is W3C Validated.</p></div>
+                        </div>
+                    </div>
+                    <div class=" col-12 col-md-4 d-flex justify-content-center">
+                        <div class="card border-0 bg-info">
+                            <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                <div class="hexa"><a href="#"><i class="fa-solid fa-gift"></i></a></div>
+                            </div>
+                            <div class="card-body border-0 text-center"><h4 class="fw-bold">MODERN</h4><p class="py-2 text-secondary">HTML Template And Following Coding Standard which is W3C Validated.</p></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section>
+            <div class="container-fluid  py-5" id="about" >
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 text-center"><span class="about px-3">ABOUT US</span></div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light">AWESOME is a creative work. Our Experts develop Premium WordPress Themes, HTML<sub>5</sub> Templates, PSD Design, Plugins and Apps for our valuable customer.</p></div>
+                    </div>
+                    <div class="row py-5 my-3 text-center">
+                        <div class="col-12 col-md-5 d-md-flex justify-content-start pe-3 m-0"><img src="awesomepic/image1.jpg" class="img-fluid"></div>
+                        <div class="col-12 col-md-7 text-md-start ps-3 m-0 pt-2 logocolor"><h5 class="fw-bold">WHO WE ARE</h5><p class="text-secondary"><b>A strong Team to keep promise surrounding the world. We developed a wide range of web Product</b> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a Ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra. per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p></div>
+                    </div>
+                    <div class="row py-5 my-3 text-center">
+                        <div class="col-12 col-md-7 pe-3 m-0 logocolor text-md-start"><h5 class="fw-bold">OUR MISSION</h5><p class="text-secondary"><b>A strong Team to keep promise surrounding the world. We developed a wide range of web Product</b> Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a Ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra. per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit.</p></div>
+                        <div class="col-12 col-md-5 m-0 ps-3 pt-2 d-md-flex justify-content-end"><iframe src="https://www.youtube.com/embed/Y-IiwguJWsw" width="727" height="250" class="img-fluid"></iframe></div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        
+            <div class="container-fluid py-5 border border-5 border-end-0 border-start-0 bg-info">
+                <div class="container my-5 pt-3">
+                    <div class="line text-center">
+                        <h2 class="fw-bolder fs-1">TOP SKILLS</h2>
+                    </div>
+                    <div class="row my-5 py-5">
+                        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center py-3">
+                            <div class="progress-container">
+                                <svg class="svg1" height=400 width=400>
+                                    <circle cx="200" cy="200" r="90" stroke="red" stroke-width="10" fill="white" class="circle1"></circle>
+                                </svg>
+                                <div class="percent text-center"><span class="fw-bold fs-1 text-primary">76<sup class="fs-4 fw-normal">%</sup></span><h3 class="logocolor fs-5 fw-bold">Photoshop</h3></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center py-3">
+                            <div class="progress-container">
+                                <svg class="svg1" height=400 width=400>
+                                    <circle cx="200" cy="200" r="90" stroke="grey" stroke-width="10" fill="white" class="circle2"></circle>
+                                </svg>
+                                <div class="percent text-center"><span class="fs-1 fw-bold text-primary">95<sup class="fs-4 fw-normal">%</sup></span><h3 class="logocolor fw-bold fs-5">Wordpress</h3></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center py-3">
+                            <div class="progress-container">
+                                <svg class="svg1" height=400 width=400>
+                                    <circle cx="200" cy="200" r="90" stroke="blue" stroke-width="10" fill="white" class="circle3"></circle>
+                                </svg>
+                                <div class="percent text-center"><span class="fs-1 fw-bold text-primary">85<sup class="fs-4 fw-normal">%</sup></span><h3 class="logocolor fw-bold fs-5">Joomla</h3></div>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-3 d-flex justify-content-center py-3">
+                            <div class="progress-container">
+                                <svg class="svg1" height=400 width=400>
+                                    <circle cx="200" cy="200" r="90" stroke="green" stroke-width="10" fill="white" class="circle4"></circle>
+                                </svg>
+                                <div class="percent text-center"><span class="fs-1 fw-bold text-primary">69<sup class="fs-4 fw-normal">%</sup></span><h3 class="logocolor fw-bold fs-5">Branding</h3></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    
+        
+        <div class="backimage">
+            <div class="overlay">
+                <div class="container-fluid py-5" id="team">
+                    <div class="container py-5">
+                        <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-lg-6 text-center text-light"><span class="about px-3">OUR TEAM</span></div>
+                        </div>
+                        <div class="row d-flex justify-content-center pt-5">
+                            <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light text-light">AWESOME is a creative work. Our Experts develop Premium WordPress Themes, HTML<sub>5</sub> Templates, PSD Design, Plugins and Apps for our valuable customer.</p></div>
+                        </div>
+                    </div>
+                        
+                            <section class="backimage1">
+                            <div class="overlay">
+                            <div class="container">
+                            <div class="row smallline py-3">
+                                <div class="col-12 col-md-6 col-lg-3 py-5">
+                                    <div class="card border border-0 ">
+                                        <img src="awesomepic/wdeveloper.jpg" height="300px">
+                                        <div class="card-body text-light bg-primary text-center">
+                                            <h6 class="logocolor fw-bold pt-5">WEB DEVELOPER</h6>
+                                            <p class="logocolor fw-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing repudiandae illo natus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3 py-5">
+                                    <div class="card border border-0">
+                                        <img src="awesomepic/wdesigner.jpg" height="300px">
+                                        <div class="card-body text-light bg-primary text-center">
+                                            <h6 class="logocolor fw-bold pt-5">WEB DESIGNER</h6>
+                                            <p class="logocolor fw-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing repudiandae illo natus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3 py-5">
+                                    <div class="card border border-0">
+                                        <img src="awesomepic/seo.jpg" height="300px">
+                                        <div class="card-body text-light bg-primary text-center">
+                                            <h6 class="logocolor fw-bold pt-5">SEO EXPERT</h6>
+                                            <p class="logocolor fw-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing repudiandae illo natus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-3 py-5">
+                                    <div class="card border border-0">
+                                        <img src="awesomepic/researcher.jpg" height="300px">
+                                        <div class="card-body text-light bg-primary text-center">
+                                            <h6 class="logocolor fw-bold pt-5">RESEARCHER</h6>
+                                            <p class="logocolor fw-light text-light">Lorem ipsum dolor sit amet, consectetur adipisicing repudiandae illo natus</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                            </div>
+                            </div>
+                            </section>
+                        
+                </div>
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"  aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active" aria-current="true" aria-label="Slide 2"></button>
+                    </div>
+                </div> 
+
+            </div>
+        </div>
+        <section class="backimage2">
+            <div class="overlay pt-5">
+                <div class="container-fluid bg-primary">
+                    <div class="container">
+                        <div class="row logocolor text-white">
+                            <div class="col-12 col-md-6 col-lg-3 py-3 text-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="py-5 pe-4 icon"><h1><i class="fa-solid fa-mug-saucer"></i></h1></div>
+                                    <div class="py-4 number text-start"><span>3214+</span><div class="smalltag">Cups of Tea Consumed</div></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 py-3 text-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="py-5 pe-4 icon"><h1><i class="fa-solid fa-square-check"></i></h1></div>
+                                    <div class="py-4 number text-start"><span>657</span><div class="smalltag">Project Completed</div></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 py-3 text-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="py-5 pe-4 icon"><h1><i class="fa-solid fa-user"></i></h1></div>
+                                    <div class="py-4 number text-start"><span>213</span><div class="smalltag">Clients Worked With</div></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3 py-3 text-center">
+                                <div class="d-flex justify-content-center">
+                                    <div class="py-5 pe-4 icon"><h1><i class="fa-solid fa-trophy"></i></h1></div>
+                                    <div class=" py-4 number text-start"><span>99</span><div class="smalltag">Award Won</div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid  py-5" id="serv">
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 text-center"><span class="about px-3">SERVICE</span></div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light">AWESOME is a creative work. Our Experts develop Premium WordPress Themes, HTML<sub>5</sub> Templates, PSD Design, Plugins and Apps for our valuable customer.</p></div>
+                    </div>
+                    
+                    <div class="row serv text-center">
+                        <div class="col-12 col-md-4 logocolor pt-4">
+                            <div class="fs-1"><i class="fa-solid fa-pencil"></i></div>
+                            <div><h5 class="fw-bold">WEB DEVELOPMENT</h5></div>
+                            <div><p class="pt-2">Our Web Development Services offer you a variety of services including enhancing your existing site.</p></div>
+                        </div>
+                        <div class="col-12 col-md-4 logocolor pt-4">
+                            <div class="fs-1"><i class="fa-solid fa-flask"></i></div>
+                            <div><h5 class="fw-bold">WEB DESIGN</h5></div>
+                            <div><p class="pt-2">HTML Template Following Coding Standard which is W3C Validated.</p></div>
+                        </div>
+                        <div class="col-12 col-md-4 logocolor pt-4">
+                            <div class="fs-1"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div><h5 class="fw-bold">WORDPRESS READY</h5></div>
+                            <div><p class="pt-2">HTML Template And Follows Coding Standard which is W3C Validated.</p></div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="backimage">
+            <div class="overlay">
+                <div class="container-fluid py-5">
+                    <div class="container text-white my-5 py-5">
+                        <div class="line1 text-center">
+                            <h2 class="fw-bolder fs-1">CORE FEATURE</h2>
+                        </div>
+
+                        <div class="row pt-5">
+                            <div class="col-12 col-lg-5 pt-5">
+                                <div class="row logocolor">
+                                    <div class="col-2  text-center py-2">
+                                        <i class="fa-solid fa-mobile-screen-button fs-2 pt-1"></i>
+                                    </div>
+                                    <div class="col-10 py-2">
+                                        <h4 class="fw-bold">ATTRACTIVE DESIGN</h4>
+                                        <p>All of our Themes designed attractivey. Attractiveness is a power to attract visitor, make different from or related to other.</P>
+                                    </div>
+                                    <div class="col-2 text-center py-2">
+                                        <i class="fa-solid fa-gear fs-2 pt-1"></i>
+                                    </div>
+                                    <div class="col-10 py-2">
+                                        <h4 class="fw-bold">RESPONSIVE LAYOUT</h4>
+                                        <hp>HTML Template Following Coding Standard which is W3C Validated.<p>
+                                    </div>
+                                    <div class="col-2 text-center py-2">
+                                        <i class="fa-regular fa-file fs-2 pt-1"></i>
+                                    </div>
+                                    <div class="col-10 py-2">
+                                        <h4 class="fw-bold">EXPANSIVE DOCUMENTATION</h4>
+                                        <P>HTML Template And Follows Coding Standard which is W3C Validated.</P>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-12 col-lg-7 pt-5 text-center">
+                                <img src="awesomepic/responsiveimg.png" class="img-fluid h-75">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <div class="container-fluid  py-5 mb-5" id="port">
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 text-center"><span class="about">PORTFOLIO</span></div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light">AWESOME is a creative work. Our Experts develop Premium WordPress Themes, HTML<sub>5</sub> Templates, PSD Design, Plugins and Apps for our valuable customer.</p></div>
+                    </div>
+                    <div class="btnout text-center logocolor">
+                            <button type="button" class="btn bg-primary text-light">ALL</button>
+                            <button type="button" class="btn">ILLUSTRATOR</button>
+                            <button type="button" class="btn">UI/UX DESIGN</button>
+                            <button type="button" class="btn">VIDEO</button>
+                            <button type="button" class="btn">WEB DESIGN</button>
+                        </div>
+                    </div>
+
+                    <div class="row pt-4">
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon1.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon2.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon3.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon4.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                    </div>
+                    <div class="row py-4">
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon5.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon6.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon7.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                        <div class="col-12 col-md-6 col-lg-3 p-2"><div class="card"><img src="awesomepic/cartoon8.jpg" class="img-fluid w-100" style="height:200px"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container-fluid py-5 border border-5 border-end-0 border-start-0 bg-info">
+            <div class="container my-5">
+                <div class="line text-center">
+                    <h2 class="fw-bolder fs-1 py-3">CHOOSE PLAN</h2>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 pt-5">
+                        <div class="card text-center p-4">
+                            <div class="card-header border border-0 bg-white">
+                                <h4 class="fw-bold logocolor">BASIC</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div id="triangle-up">
+                                    <ul class="tricenter text-white">
+                                    <li class="fw-bold">$</li>
+                                    <li class= "text-dark logocolor fs-1 fw-bold">19</li>
+                                    <li class="fw-bold">/MO</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center logocolor text-secondary py-1">
+                                    <div class="py-1"><span class="text-primary fw-bold">5</span> Domain Uses</div>
+                                    <div class="py-1">14+ <span class="text-primary fw-bold">WordPress</span> Theme</div>
+                                    <div class="py-1">34+ <span class="text-primary fw-bold">HTML</span> Template</div>
+                                    <div class="py-1"><span class="text-primary fw-bold">2TB</span> of Storage</div>
+                                </div>
+                            </div>
+                            <div class="card-footer border border-0 bg-white">
+                                <div class="text-center">
+                                    <button type="button" class="btn bg-primary text-light fw-bold px-4">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pt-5">
+                        <div class="card text-center p-4">
+                            <div class="card-header border border-0 bg-white">
+                                <h4 class="fw-bold logocolor">STANDARD</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div id="triangle-up">
+                                    <ul class="tricenter text-white">
+                                    <li class="fw-bold">$</li>
+                                    <li class= "text-dark logocolor fs-1 fw-bold">39</li>
+                                    <li class="fw-bold">/MO</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center logocolor text-secondary py-1">
+                                    <div class="py-1"><span class="text-primary fw-bold">15</span> Domain Uses</div>
+                                    <div class="py-1">24+ <span class="text-primary fw-bold">WordPress</span> Theme</div>
+                                    <div class="py-1">54+ <span class="text-primary fw-bold">HTML</span> Template</div>
+                                    <div class="py-1"><span class="text-primary fw-bold">5TB</span> of Storage</div>
+                                </div>
+                            </div>
+                            <div class="card-footer border border-0 bg-white">
+                                <div class="text-center">
+                                    <button type="button" class="btn bg-primary text-light fw-bold px-4">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pt-5">
+                        <div class="card text-center p-4">
+                            <div class="card-header border border-0 bg-white">
+                                <h4 class="fw-bold logocolor">PREMIUM</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div id="triangle-up">
+                                    <ul class="tricenter text-white">
+                                    <li class="fw-bold">$</li>
+                                    <li class= "text-dark logocolor fs-1 fw-bold">59</li>
+                                    <li class="fw-bold">/MO</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center logocolor text-secondary py-1">
+                                    <div class="py-1"><span class="text-primary fw-bold">59</span> Domain Uses</div>
+                                    <div class="py-1">59+ <span class="text-primary fw-bold">WordPress</span> Theme</div>
+                                    <div class="py-1">59+ <span class="text-primary fw-bold">HTML</span> Template</div>
+                                    <div class="py-1"><span class="text-primary fw-bold">9TB</span> of Storage</div>
+                                </div>
+                            </div>
+                            <div class="card-footer border border-0 bg-white">
+                                <div class="text-center">
+                                    <button type="button" class="btn bg-primary text-light fw-bold px-4">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pt-5">
+                        <div class="card text-center p-4">
+                            <div class="card-header border border-0 bg-white">
+                                <h4 class="fw-bold logocolor">PRO</h4>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div id="triangle-up">
+                                    <ul class="tricenter text-white">
+                                    <li class="fw-bold">$</li>
+                                    <li class= "text-dark logocolor fs-1 fw-bold">99</li>
+                                    <li class="fw-bold">/MO</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="text-center logocolor text-secondary py-1">
+                                    <div class="py-1"><span class="text-primary fw-bold">100+</span> Domain Uses</div>
+                                    <div class="py-1">100+ <span class="text-primary fw-bold">WordPress</span> Theme</div>
+                                    <div class="py-1">100+ <span class="text-primary fw-bold">HTML</span> Template</div>
+                                    <div class="py-1"><span class="text-primary fw-bold">50TB</span> of Storage</div>
+                                </div>
+                            </div>
+                            <div class="card-footer border border-0 bg-white">
+                                <div class="text-center">
+                                    <button type="button" class="btn bg-primary text-light fw-bold px-4">SIGN IN</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+        <section class="backimage3">
+            <div class="overlay">
+                <div class="container-fluid py-5" id="client">
+                    <div class="container py-5">
+                        <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-lg-6 text-center text-light"><span class="about px-3">CLIENT</span></div>
+                        </div>
+                        <div class="row d-flex justify-content-center py-5">
+                            <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light text-light">AWESOME is a creative work. Our Experts develop Premium WordPress Themes, HTML<sub>5</sub> Templates, PSD Design, Plugins and Apps for our valuable customer.</p></div>
+                        </div>
+
+                        <div class="text-center mt-5 pt-5">
+                            <img src="awesomepic/maria.jpg" class="border border-3 border-light rounded-circle" style="width:100px; height:100px;">
+                        </div>
+                        <div class="row text-white d-flex justify-content-center">
+                            <div class="col-2 bigsize text-center"><i class="fa-solid fa-quote-left"></i></div>
+                            <div class="col-8 text-center pt-4 logocolor"><p><em>We Developed AWESOME HTML Template Following Coding Standard which is W3C Validated.</em></p><div class="col-12 text-center"><h6 class="fw-bold">MARIA<small class="fw-normal"> - ceo</small></h6></div></div>
+                            <div class="col-2 bigsize text-center"><i class="fa-solid fa-quote-right"></i></div>
+                            </div>
+
+                           
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators smallicon">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active smallbox" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="smallbox bg-light"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="smallbox bg-light"></button>
+                        </div>
+                    </div> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container-fluid  py-5 mb-4 px-0" id="blog">
+                <div class="container pt-5">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 text-center"><span class="about px-3">OUR BLOG</span></div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light">Get Latest Product Updates, News, Tutorial, Template or Theme Reviews from Team.</p></div>
+                    </div>
+
+                <div class="row py-3">
+                    <div class="col-12 col-lg-8 py-3">
+                        <div class="row">
+                    
+                            <div class="col-12 col-lg-6 m-0 p-0">
+                                <img src="awesomepic/blogimage1.jpg" class="img-fluid w-100">
+                            </div>
+    
+                            <div class="col-12 col-lg-6 logocolor p-4 pt-5 infobox">
+                                <h4 class="fw-bold">DRAMATICALLY REDEFINE</h4>
+                                <p>Dramatically redefine end-to-end portals and efficient customer service. Seamlessly incubat enterprise-wide niches and dynamic intellectual capital. Dramatically innovate front-end customer service whereas emerging infomediaries. Authoritatively</p>
+                                <div class="pt-3"><button class="btn border-primary border-2 text-primary" style="font-weight:600;">READ MORE</button></div>
+                            </div>
+                            
+                        
+                        </div>
+
+                        <div class="row bg-info mt-4">
+                            <div class="col-12 col-lg-6 logocolor p-4 pt-5 infobox1">
+                                <h4 class="fw-bold">DONEC RUTRUM CONGUE</h4>
+                                <p>Donec rutrum congue leo eget malesuada Pellentesque in ipsum id orci porta dapibus. Nulla porttitor accumsan tincidunt. Donec sollicitudin molestie malesuada. Praesent sapien massa. convallis</p>
+                                <div class="pt-3"><button class="btn border-primary border-2 text-primary" style="font-weight:600;">READ MORE</button></div>
+                            </div>
+                            <div class="col-12 col-lg-6 m-0 p-0">
+                                <img src="awesomepic/blogimage2.jpg" class="img-fluid w-100" style="height:250px;">
+                            </div>
+                        </div>
+                     </div>
+
+                    <div class="col-12 col-lg-4 py-3">
+                            <div class="row bg-info">
+                                <div class="col-12 m-o p-0">
+                                <img src="awesomepic/blogimage3.jpg" class="img-fluid w-100" style="height:280px;">
+                                </div>
+                                <div class="col-12 logocolor p-4 pt-5 infobox2">
+                                <h4 class="fw-bold">HELLO WORLD!</h4>
+                                <p>Compellingly myocardinate high-payoff alignments for equity invested materials. Professionally expedite goal-oriented core competencies and revolutionary convergence. Compellingly enhance innovative quality vectors before granular customer service.</p>
+                                <div class="pt-3"><button class="btn border-primary border-2 text-primary" style="font-weight:600;">READ MORE</button></div>
+                            </div>
+                     </div>
+                </div>
+                <div class="pt-5 text-center logocolor"><button class="btn border-primary border-2 text-primary px-4 fs-5" style="font-weight:600;">VIEW ALL</button></div>
+                </div>
+            </div>
+        </section>
+
+             
+        <div class="container-fluid py-5 border border-5 border-end-0 border-start-0 bg-info">
+            <div class="container my-4 pt-3">
+                <div class="line text-center">
+                    <h2 class="fw-bolder fs-1 logocolor">LATEST TWEET</h2>
+                </div>
+
+                <div class="row text-center pt-5">
+                    <div class="col-12 pt-5"><h4 class="text-white fs-2"><i class="fa-brands fa-twitter bg-primary p-3"></i></h4></div>
+                </div>
+                <div class="row logocolor text-center pt-3">
+                    <div class="col-12 fs-5">
+                        <div>awesome</div>
+                        <div class="text-primary">@AWESOME</div>
+                        <div>TopNews - News Magazine Newspaper Blog Viral & Buzz WordPress Theme</div>
+                        <div class="text-primary">https://tco/Z4FTwpmAht#wordPress<span class="text-dark"><i class="fa-solid fa-diamond"></i></span>https://t.co/opIAheW2I</div>
+                        <p class="text-end fs-6 me-5 pt-4 pe-5">2 months ago</p>
+                    </div>
+                  
+                </div>
+
+            </div>
+        </div>
+        
+        
+        <section class="vdo">
+                 <video src="awesomepic/webvideo.mp4" autoplay muted loop class="w-100 h-100vh"></video>
+    
+                <div class="watch logocolor">
+                <div class="row d-flex justify-content-center">
+                <div class="col-12 col-lg-8 overlay pt-2">
+                    <div class="row text-white d-flex justify-content-center">
+                    <div class="col-12  text-center"><span class="about px-1">WATCH THIS</span></div>
+                    </div>
+                    <div class="row text-white d-flex justify-content-center pt-3">
+                        <div class="col-12"><p class="text-center fs-5 logocolor fw-light">Feel free to contact us to ask your question about AWESOME Multipurpose HTML5 Template or any Premium WordPress Theme you like to buy from us.</p></div>
+                    </div>
+                </div>
+                </div>
+                </div>
+        </section
+
+        <section>
+            <div class="container-fluid  py-5" id="con">
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center">
+                    <div class="col-12 col-lg-6 text-center"><span class="about px-3">CONTACT</span></div>
+                    </div>
+                    <div class="row d-flex justify-content-center py-5">
+                        <div class="col-12 col-md-9"><p class="text-center fs-5 logocolor fw-light">Feel free to contact us to ask your question about AWESOME Multipurpose HTML5 Template or any Premium WordPress Theme you like to buy from us.</p></div>
+                    </div>
+
+                    <form class="logocolor">
+                    <div class="row">
+                        <div class="col-12 col-md-6 py-3"><input class="form-control bg-info border-0 p-3" type="text" name="txt" placeholder="Your Name"></div>
+                        <div class="col-12 col-md-6 py-3"><input class="form-control bg-info border-0 p-3" type="email" name="mail" placeholder="Your Email"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 col-md-6 py-3"><input class="form-control bg-info border-0 p-3" type="text" name="subject" placeholder="Your Subject"></div>
+                        <div class="col-12 col-md-6 py-3"><input class="form-control bg-info border-0 p-3" type="text" name="web" placeholder="Your Website"></div>
+                    </div>
+                    
+                    <div class="row py-3">
+                        <div class="col-12"><textarea class="form-control bg-info border-0 pb-5 pt-3 ps-3" name="txtarea" placeholder="Write Your Message"></textarea> </div>
+                    </div>
+
+                    <div class="d-grid gap-2 py-3">
+                        <button class="btn bg-light border border-secondary border-3 text-primary fw-bold" type="button">SEND MESSAGE</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container-fluid bg-info p-5 border border-5 border-end-0 border-start-0">
+                <div class="container my-5">
+                    <div class="line text-center">
+                        <h2 class="fw-bolder fs-1 logocolor">GET IN TOUCH</h2>
+                    </div>
+                    <div class="row mt-4 pt-5">
+                        <div class=" col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                            <div class="card border-0 bg-info">
+                                <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                    <div class="square" style="background-color:#a42eee;"><a href='#'><i class="fa-solid fa-location-dot"></a></i></div>
+                                </div>
+                                <div class="card-body border-0 text-center psize"><h4 class="fw-bold">ADDRESS</h4><p class="py-2">Inner Circular Road, Broker Sector Rang Plaza, UK</p></div>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                            <div class="card border-0 bg-info">
+                                <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                    <div class="square" style="background-color:#f42f57;"><a href="#"><i class="fa-solid fa-envelope"></i></a></div>
+                                </div>
+                                <div class="card-body border-0 text-center psize"><h4 class="fw-bold">EMAIL</h4><p class="py-2">support@yoursite.com info@yoursite.com</p></div>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                            <div class="card border-0 bg-info">
+                                <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                    <div class="square" style="background-color:#f5ba17;"><a href="#"><i class="fa-solid fa-mobile-screen-button"></i></a></div>
+                                </div>
+                                <div class="card-body border-0 text-center psize"><h4 class="fw-bold">PHONE</h4><p class="py-2">+61 (001) 2345 67890 <br> +61 (001) 2345 67890</p></div>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6 col-lg-3 d-flex justify-content-center">
+                            <div class="card border-0 bg-info">
+                                <div class="card-header border-0 bg-info pb-4 w-40 m-auto">
+                                    <div class="square" style="background-color:#09c209;"><a href="#"><i class="fa-brands fa-skype"></i></a></div>
+                                </div>
+                                <div class="card-body border-0 text-center psize"><h4 class="fw-bold">SKYPE</h4><p class="py-2">support.awesome@skype.com <br> help.awesome@skype.com</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-5 logocolor text-center bg-white" style="border:12px solid #26b0ae;">
+                        <div class="col-12 col-md-9 col-lg-10 mx-0 px-0"><input type="email" name="mail" class="form-control text-center border-0 p-3 text-dark" placeholder="Enter Your email address here to subscribe our newsletter..." ></div>
+                        <div class="col-12 col-md-3 col-lg-2 text-md-end"><button type="button" class="btn border-primary border-2 fw-bold mt-2">SUBSCRIBE <span><i class="fa-solid fa-arrow-pointer"></i></span></button></div>
+                    </div>
+                </div>
+               </div>
+            </section>
+    
+            <section class="bimage">
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62220.443217228385!2d80.07793615601304!3d12.92200436735343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f14844aad0f%3A0xe16d3a66c4ce38d4!2sTambaram%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1649497626611!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+
+            <section class="bimage pt-5">
+                <div class="overlay">
+                    <div class="container-fluid">
+                    <div class="container p-5">
+                        
+                        <div class=" text-center d-flex justify-content-center">
+                            <div class="m-3"><h4 class="text-white fs-4"><i class="fa-brands fa-facebook-f bg-secondary p-3"></i></h4></div>
+                            <div class="m-3"><h4 class="text-white fs-4"><i class="fa-brands fa-twitter bg-secondary p-3"></i></h4></div>
+                            <div class="m-3"><h4 class="text-white fs-4"><i class="fa-brands fa-google bg-secondary p-3"></i></h4></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h5 class="logocolor fw-bold text-center p-4">AWESOME <span class="fw-normal">2022</span></h5>
+            </section>
+            <div class="square1">
+                <a href="#up"> <i class="fa-solid fa-chevron-up text-white fs-1"></i></div>
+            </div>
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
